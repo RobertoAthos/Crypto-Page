@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: #222;
+    
+  }
+.light {
+    position: absolute;
+    width: 0px;
+    opacity: .75;
+    background-color: rgb(0, 0, 0);
+    box-shadow: #464646 0px 0px 20px 2px;
+    opacity: 0;
+    top: 100vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.x1{
+  -webkit-animation: floatUp 4s infinite linear;
+  -moz-animation: floatUp 4s infinite linear;
+  -o-animation: floatUp 4s infinite linear;
+  animation: floatUp 4s infinite linear;
+   -webkit-transform: scale(1.0);
+   -moz-transform: scale(1.0);
+   -o-transform: scale(1.0);
+  transform: scale(1.0);
+}
+
+.x2{
+  -webkit-animation: floatUp 7s infinite linear;
+  -moz-animation: floatUp 7s infinite linear;
+  -o-animation: floatUp 7s infinite linear;
+  animation: floatUp 7s infinite linear;
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
+  left: 15%;
+}
+
+.x3{
+  -webkit-animation: floatUp 2.5s infinite linear;
+  -moz-animation: floatUp 2.5s infinite linear;
+  -o-animation: floatUp 2.5s infinite linear;
+  animation: floatUp 2.5s infinite linear;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  -o-transform: scale(.5);
+  transform: scale(.5);
+  left: -15%;
+}
+
+.x4{
+  -webkit-animation: floatUp 4.5s infinite linear;
+  -moz-animation: floatUp 4.5s infinite linear;
+  -o-animation: floatUp 4.5s infinite linear;
+  animation: floatUp 4.5s infinite linear;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  left: -34%;
+}
+
+.x5{
+  -webkit-animation: floatUp 8s infinite linear;
+  -moz-animation: floatUp 8s infinite linear;
+  -o-animation: floatUp 8s infinite linear;
+  animation: floatUp 8s infinite linear;
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  transform: scale(2.2);
+  left: -57%;
+}
+
+.x6{
+  -webkit-animation: floatUp 3s infinite linear;
+  -moz-animation: floatUp 3s infinite linear;
+  -o-animation: floatUp 3s infinite linear;
+  animation: floatUp 3s infinite linear;
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -o-transform: scale(.8);
+  transform: scale(.8);
+  left: -81%;
+}
+
+.x7{
+  -webkit-animation: floatUp 5.3s infinite linear;
+  -moz-animation: floatUp 5.3s infinite linear;
+  -o-animation: floatUp 5.3s infinite linear;
+  animation: floatUp 5.3s infinite linear;
+  -webkit-transform: scale(3.2);
+  -moz-transform: scale(3.2);
+  -o-transform: scale(3.2);
+  transform: scale(3.2);
+  left: 37%;
+}
+
+.x8{
+  -webkit-animation: floatUp 4.7s infinite linear;
+  -moz-animation: floatUp 4.7s infinite linear;
+  -o-animation: floatUp 4.7s infinite linear;
+  animation: floatUp 4.7s infinite linear;
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  -o-transform: scale(1.7);
+  transform: scale(1.7);
+  left: 62%;
+}
+
+.x9{
+  -webkit-animation: floatUp 4.1s infinite linear;
+  -moz-animation: floatUp 4.1s infinite linear;
+  -o-animation: floatUp 4.1s infinite linear;
+  animation: floatUp 4.1s infinite linear;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+  left: 85%;
+}
+
+@-webkit-keyframes floatUp{
+    0%{top: 100vh; opacity: 0;}
+    25%{opacity: 1;}
+    50%{top: 0vh; opacity: .8;}
+    75%{opacity: 1;}
+    100%{top: -100vh; opacity: 0;}
+  }
+  @-moz-keyframes floatUp{
+    0%{top: 100vh; opacity: 0;}
+    25%{opacity: 1;}
+    50%{top: 0vh; opacity: .8;}
+    75%{opacity: 1;}
+    100%{top: -100vh; opacity: 0;}
+  }
+  @-o-keyframes floatUp{
+    0%{top: 100vh; opacity: 0;}
+    25%{opacity: 1;}
+    50%{top: 0vh; opacity: .8;}
+    75%{opacity: 1;}
+    100%{top: -100vh; opacity: 0;}
+  }
+  @keyframes floatUp{
+    0%{top: 100vh; opacity: 0;}
+    25%{opacity: 1;}
+    50%{top: 0vh; opacity: .8;}
+    75%{opacity: 1;}
+    100%{top: -100vh; opacity: 0;}
+  }
+button{
+    border: none;
+    cursor: pointer;
+}
+#login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+label,#account{
+    font-size: 1.5rem;
+}
+#account{
+    text-decoration: underline;
+}
+.main-text{
+    padding: 20px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+.main-text>h1{
+    color: rgb(247, 111, 0);
+    font-size: 3rem;
+}
+.login-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    min-height: 550px;
+    background-color: #444;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+}
+#login>.login-container>img{
+    width: 200px;
+}
+.login-container>button{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 30px;
+    width: 200px;
+}
+.login-container>button:hover{
+    background-color: rgb(209, 112, 0);
+    transition: 300ms;
+    transform: scale(1.1);
+}
+.explain-container{
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.explain-container>p>a:hover{
+    color: rgb(255, 136, 0);
+    transition: 300ms;
+}
+
+details{
+    background-color: rgb(29, 28, 28);
+    box-shadow: 8px 8px 20px 8px rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+details:hover{
+    background-color: rgb(24, 23, 23);
+    transition: 300ms;
+}
+#questions{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+}
+.explain-wrapper{
+    margin-top: 30px;
+}
+.error{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.error-container{
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
+.close{
+    width: 100%;
+    text-align: right;
+    margin-right: 90px;
+}
+.error-container>.close>#close-btn{
+    background: none;
+    font-size: 3rem;
+}
+
